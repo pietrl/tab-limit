@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Limit",
+    "version": "1.0",
+
+    "description": "Limits how many browser tabs you can open.",
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "tab-limit",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    }
+}
