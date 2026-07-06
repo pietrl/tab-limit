@@ -7,10 +7,14 @@
 
     "browser_specific_settings": {
         "gecko": {
-            "id": "tab-limit",
+            "id": "temporary-id@tab-limit",
             "data_collection_permissions": {
                 "required": ["none"]
             }
         }
-    }
+    },
+    "background" : {
+        "scripts": ["tab-limit.js"]
+    },
+    "permissions": ["tabs", "notifications"]
 }
