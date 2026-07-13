@@ -1,7 +1,7 @@
 async function limitNumberOfTabs(newTab) {
     numberOfTabs = await browser.tabs.query({}).then((openTabs) => openTabs.length)
 
-    if (numberOfTabs >= 10) {
+    if (numberOfTabs > 10) {
         browser.tabs.remove(newTab.id)
 
         browser.notifications.create({
