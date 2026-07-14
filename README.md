@@ -1,3 +1,3 @@
 # Tab Limit Browser Extension
 
-Limits how many open browser tabs you can have at the same time to 10.
+Limits the number of browser tabs you can open at the same time to 10.

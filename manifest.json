@@ -3,7 +3,7 @@
     "name": "Tab Limit",
     "version": "1.0",
 
-    "description": "Limits how many browser tabs you can open to 10.",
+    "description": "Limits the number of browser tabs you can open at the same time to 10.",
 
     "browser_specific_settings": {
         "gecko": {

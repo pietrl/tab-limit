@@ -6,7 +6,7 @@ async function limitNumberOfTabs(newTab) {
 
         browser.notifications.create({
             "title": "Tab Limit Extension",
-            "message": "Your new tab has been blocked because you have reached your limit of 10 open tabs.",
+            "message": "Your new tab has been closed because you have reached your limit of 10 open tabs.",
             "type": "basic"
         })
     }
